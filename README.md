@@ -21,6 +21,51 @@ npm install
 
 ## Usage
 
+### Installation
+
+To install the tool globally so you can run it from any directory, use:
+
+```bash
+npm install -g .
+```
+
+This will install the `aicodegen` command globally on your system.
+
+### Running the Assistant
+
+Once installed, navigate to the directory of the project/repo you want to work with, then run:
+
+```bash
+aicodegen
+```
+
+This will start the interactive AI coding assistant in the current directory, allowing it to access and work with files there.
+
+### Initialize API Key
+
+Set your OpenAI API key:
+
+```bash
+aicodegen init
+```
+
+### Use a Named Prompt
+
+Use a predefined prompt to customize the assistant's behavior:
+
+```bash
+aicodegen use <promptName>
+```
+
+### Help
+
+Show usage information:
+
+```bash
+aicodegen help
+```
+
+
 ### Initialize API Key
 
 Set your OpenAI API key:
@@ -80,5 +125,3 @@ The OpenAI API key is stored in your home directory under `.aicodegen/config.jso
 GNU GPL v3.0 License
 
 ---
-
-
